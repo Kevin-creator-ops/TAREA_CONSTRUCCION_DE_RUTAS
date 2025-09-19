@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+.info-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.img img {
+    display: block;
+    width: 300px;      /* Imagen más grande */
+    height: auto;
+    margin: 0;
+}
+
+.historia {
+    max-width: 700px;  /* Más ancho para el texto */
+    font-size: 1.15em; /* Texto un poco más grande */
+    line-height: 1.7;  /* Mejor lectura */
+}
+
+body {
+    background-color: darkgrey; 
+}
