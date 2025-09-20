@@ -6,9 +6,9 @@ const app = express();
 const publicfolderPath = path.resolve(__dirname, "./public");
 app.use(express.static(publicfolderPath));
 
-app.listen(3001, () => { 
-    const PORT = 3001;  
-    console.log("Servidor corriendo en el puerto 3001");
+app.listen(3000, () => { 
+    const PORT = 3000;  
+    console.log("Servidor corriendo en el puerto 3000");
     console.log(`Página Home:          http://localhost:${PORT}/`);
     console.log(`Página Babbage:       http://localhost:${PORT}/babbage`);
     console.log(`Página Berners-Lee:   http://localhost:${PORT}/berners-lee`);
